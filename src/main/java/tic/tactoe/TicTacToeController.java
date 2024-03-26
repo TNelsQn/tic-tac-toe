@@ -28,7 +28,7 @@ public class TicTacToeController extends Application {
         root.setPadding(new Insets(20));
         root.setAlignment(Pos.CENTER);
 
-        title = new TextField("Tic Tac Toe");
+        title = new TextField("X's turn");
         title.setAlignment(Pos.CENTER);
         title.setFont(Font.font("Arial", FontWeight.BOLD, 20));
         title.getStyleClass().add("text-field");
@@ -74,8 +74,10 @@ public class TicTacToeController extends Application {
     private void handleButtonClick(int row, int col) {
         if (turn) {
             buttons[row][col].setText("X");
+            title.setText("O's turn");
         } else {
             buttons[row][col].setText("O");
+            title.setText("X's turn");
         }
         turn = !turn;
         buttons[row][col].setDisable(true);
@@ -150,7 +152,7 @@ public class TicTacToeController extends Application {
             }
         }
         turn = true;
-        title.setText("Tic Tac Toe");
+        title.setText("X's turn");
     }
     
 }

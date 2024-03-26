@@ -1,0 +1,22 @@
+/* css.css */
+
+.text-field {
+    -fx-background-color: white; /* Set a white background */
+    background-color: white;
+    -fx-border-color: transparent; /* Transparent border color */
+    border-color: transparent;
+    -fx-text-fill: black;
+};
+
+.game-button {
+    -fx-background-color: white; /* Set a white background */
+    background-color: white;
+    -fx-border-color: transparent; /* Transparent border color */
+    border-color: transparent;
+};
+
+.game-button:hover {
+    -fx-border-color: blue; /* Border color on hover */
+    border-color: blue;
+    -fx-text-fill: black;
+};
