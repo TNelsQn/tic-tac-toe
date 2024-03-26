@@ -6,7 +6,7 @@ Welcome to the Javafx Tic Tac Toe game! This project is a simple implementation 
 
 1. **Clone the Repository**: Begin by cloning this repository to your local machine using the following command:
 
-        git clone https://github.com/TNelsQn/tic-tac-toe](https://github.com/TNelsQn/tic-tac-toe.git
+        git clone https://github.com/TNelsQn/tic-tac-toe.git
 
 
 2. **Compile and Run the code from the root directory**:
